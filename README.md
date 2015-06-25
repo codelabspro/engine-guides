@@ -57,8 +57,6 @@ In your md files, use two pound signs with a single space for subheadings. Only 
 
      ## Your heading
 
-
-
 ## Code 
 
 When including inline code (within text) we use  two backticks around the &#96;code&#96;.
@@ -70,7 +68,7 @@ For block sections of code or any code example, use four spaces.
 
 ## Guidelines for building tutorials:
 
-While we try to limit the pronouns `'we'` and `'you'` in the prose guides, the tutorials can be more informal. However, all of the guidelines above still apply for tutorials as well as the additional markup and formatting guidelines listed below.
+While we try to limit the pronouns `'we'` and `'you'` in the prose guides, the tutorials can be more informal. However, all of the guidelines above still apply for tutorials as well as the additional markup and formatting tips listed below.
 
 ## Intro sections  
 
