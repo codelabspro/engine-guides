@@ -1,6 +1,6 @@
-## Welcome to the Famous Engine Prose Guides Repo! 
+## Welcome to the Famous Engine prose guides repo! 
 
-This repo contains all of the raw Markdown content for the [famous.org/learn](https://famous.org/learn) section of the website. Note that Tutorials are broken into Folders, while the guides are located in the root directory of the repo. 
+This repo contains all of the raw Markdown content for the [famous.org/learn](https://famous.org/learn) section of the website. Note that Tutorials are broken into thier own folders, while the prose guides are located in the root directory of this repo. For the Famous Framework prose guides check out the repo here: [github.com/Famous/framework-guides](https://github.com/Famous/framework-guides)
 
 We've exposed this content so that you can help us provide more accurate and comprehensive learning resources. While this repo does not expose any of the website's markup, feel free to file issues here about broken links or inconsistencies with the famous.org website.
 
@@ -23,24 +23,6 @@ Use two slashes for comments: `//`. Comments should be formated in sentence case
 ## Method names
 
 Always include a period and parenthesis when referencing a method name i.e. `.methodName()`. Use back ticks when referencing any method name, variable, or property within text. 
-
-
-## More style tips
-
- - No whitespace at the end of line or on blank lines.
- - Lines should be no longer than 80 characters, and must not exceed 100 (counting tabs as 4 spaces). There are 2 exceptions, both allowing the line to exceed 100 characters:
- - If the line contains a comment with a long URL.
- - If the line contains a regex literal. This prevents having to use the regex constructor which requires otherwise unnecessary string escaping.
- - if/else/for/while/try always have braces and always go on multiple lines.
- - Unary special-character operators (e.g., !, ++) must not have space next to their operand.
- - Any , and ; must not have preceding space.
- - Any ; used as a statement terminator must be at the end of the line.
- - Any : after a property name in an object definition must not have preceding space.
- - The ? and : in a ternary conditional must have space on both sides.
- - No filler spaces in empty constructs (e.g., {}, [], fn())
- - New line at the end of each file.
- - If the entire file is wrapped in a closure, the function body is not indented.
- - Two spaces should be used for code examples. 
 
 ## Format
 
@@ -65,10 +47,26 @@ For block sections of code or any code example, use four spaces.
     
     // This is four spaces out
 
+## More style tips
+
+ - No whitespace at the end of line or on blank lines.
+ - Lines should be no longer than 80 characters, and must not exceed 100 (counting tabs as 4 spaces). There are 2 exceptions, both allowing the line to exceed 100 characters:
+ - If the line contains a comment with a long URL.
+ - If the line contains a regex literal. This prevents having to use the regex constructor which requires otherwise unnecessary string escaping.
+ - if/else/for/while/try always have braces and always go on multiple lines.
+ - Unary special-character operators (e.g., !, ++) must not have space next to their operand.
+ - Any , and ; must not have preceding space.
+ - Any ; used as a statement terminator must be at the end of the line.
+ - Any : after a property name in an object definition must not have preceding space.
+ - The ? and : in a ternary conditional must have space on both sides.
+ - No filler spaces in empty constructs (e.g., {}, [], fn())
+ - New line at the end of each file.
+ - If the entire file is wrapped in a closure, the function body is not indented.
+ - Two spaces should be used for code examples. 
 
 ## Guidelines for building tutorials:
 
-While we try to limit the pronouns `'we'` and `'you'` in the prose guides, the tutorials can be more informal. However, all of the guidelines above still apply for tutorials as well as the additional markup and formatting tips listed below.
+While we try to limit the pronouns `'we'` and `'you'` in the prose guides, the tutorials can be more informal. All of the guidelines above still apply for tutorials as well as some additional markup and formatting tips listed below.
 
 ## Intro sections  
 
