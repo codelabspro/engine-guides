@@ -50,7 +50,7 @@ Any method name, variable, property, HTML tag within text should be highlighted 
 
 ## Method names
 
-Always include a period and parenthesis when referencing a method name i.e. `.methodName()`. 
+Always include a period and parentheses when referencing a method name i.e. `.methodName()`. 
 
 
 ## General style tips
