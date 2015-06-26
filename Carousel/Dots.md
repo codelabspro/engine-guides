@@ -103,12 +103,13 @@ We will need to pass the scene size to the `.layoutDots()` method to get the dot
 
 Add the code below to the `Dots` constructor.
 
-    //add a component to keep dot layout updated
+    // Add a component to keep dot layout updated
     var resizeComponent = {
-        onSizeChange: function(size) {
-            //this will layout the dots whenever a resize occurs
+        onSizeChange: function(x,y,z) {
+            size = [x,y,z]
+            // This will layout the dots whenever a resize occurs
             this.layoutDots(size)
-            //size === [parent size, 20, parent size]
+            // Size === [parent size, 20, parent size]
         }.bind(this)
     };
     this.node.addComponent(resizeComponent);
@@ -119,7 +120,7 @@ Add the code below to the `Dots` constructor.
 </div>
 
 
-Now, whenever the node is resized, the method above will fire with the new size passed in. You can register an `onSizeChange` method with any component to get the current `[x,y,z]` size of a node. If a node doesn't have a size in a particular direction it will return the size of its parent.
+Now, whenever the node is resized, the method above will fire with the new size passed in. You can register an `onSizeChange` method with any component to get the current `x,y,z` size of a node. If a node doesn't have a size in a particular direction it will return the size of its parent.
 
 ## Seeing Dots
 

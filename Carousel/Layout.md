@@ -27,7 +27,7 @@ Because we need to create four elements --- two `Arrow` elements, a `Dots` eleme
 
     var FamousEngine = require('famous/core/FamousEngine');
     var DOMElement = require('famous/dom-renderables/DOMElement');
-    //we will build these files in the `Organizing Code` step
+    // We will build these files in the `Organizing Code` step
     // var Arrow = require('./Arrow.js');
     // var Pager = require('./Pager.js');
     // var Dots = require('./Dots.js');
@@ -49,7 +49,7 @@ Because we need to create four elements --- two `Arrow` elements, a `Dots` eleme
 
         this.dots = new Dots(this.root.addChild(), { numPages: this.pageData.length });
         
-        //we will build this function in the next step
+        // We will build this function in the next step
         _positionComponents.call(this)
 
     }
@@ -97,7 +97,7 @@ Copy and paste the following code snippet just below your `Carousel` constructor
         this.pager.node.setMountPoint(.5, .5, 0);
     }
 
-With this function, our nodes will be [sized] and positioned. However, before any content will be visible, we will need to flesh out the classes for the child elements `Pager`, `Arrow`, and `Dots`.
+With this function, our nodes will be [sized] and positioned. However, before any content is visible, we will need to flesh out the classes for the child elements `Pager`, `Arrow`, and `Dots`.
 
 Before moving on to the next step, lets comment out all of the child intances and the `_positionComponents` call in Carousel, so we can view our project as it gets built. Check out the modified file below if you get lost at this step. If you forget to do this, you will get the error: `Arrow not defined`.
 

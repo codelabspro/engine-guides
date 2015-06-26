@@ -21,18 +21,18 @@ Open up `Footer.js` and add the following code.
     var NavButton = require('./NavButton');
     var Node = require('famous/core/Node');
 
-    // the number of sections in the app
+    // The number of sections in the app
     var numSections = data.sections.length;
 
-    // the footer will hold the nav buttons
+    // The footer will hold the nav buttons
     function Footer () {
-        // subclass Node
+        // Subclass Node
         Node.call(this);
 
-        // object to store the buttons
+        // Object to store the buttons
         this.buttons = {};
 
-        // for every section create a NavButton
+        // For every section create a NavButton
         // and set its size and align
         data.sections.forEach(function (section, i) {
             this.buttons[section.id] = this.addChild(new NavButton(section.id))
@@ -41,7 +41,7 @@ Open up `Footer.js` and add the following code.
         }.bind(this));
     }
 
-    // subclass Node
+    // Subclass Node
     Footer.prototype = Object.create(Node.prototype);
 
     module.exports = Footer;
@@ -64,24 +64,24 @@ In the code above, we already made calls to our `NavButton` class and passed in 
         // Subclass node
         Node.call(this);
 
-        // make and style an element
+        // Make and style an element
         this.el = makeEl(this);
 
-        // hold the id of the section
+        // Hold the id of the section
         // this NavButton points to.
         this.id = id;
 
-        // set the content of the element
+        // Set the content of the element
         // to the target section.
-        // initialize the buttons as off
+        // Initialize the buttons as off
         this.el.setContent(id)
-           //note: we will remove this 'default' in the next step
+           // Note: we will remove this 'default' in the next step
            .addClass('off')
     }
 
     NavButton.prototype = Object.create(Node.prototype);
 
-    // make and style an element
+    // Make and style an element
     function makeEl (node) {
         return new DOMElement(node, {
             properties: {
@@ -96,12 +96,12 @@ In the code above, we already made calls to our `NavButton` class and passed in 
 
 The buttons above will have either an `'on'` or `'off'` CSS class added to them. In the `index.html` file, these two CSS classes are already styled to make our buttons appear like they are either clicked or not. To toggle between these two classes, let's add the following methods to the `NavButton` class.
 
-    // apply the on class
+    // Apply the on class
     NavButton.prototype.on = function on () {
         this.el.removeClass('off').addClass('on');
     };
 
-    // apply the off class
+    // Apply the off class
     NavButton.prototype.off = function off () {
         this.el.removeClass('on').addClass('off');
     };
@@ -116,13 +116,13 @@ To use our new `Footer` module, we will follow the same steps we took with our `
 
 Next, add a new `Footer` instance to the function `makeFooter`:
 
-    // make the footer
+    // Make the footer
     function makeFooter (node) {
-        // the footer will be aligned
+        // The footer will be aligned
         // to the bottom of its parent.
         // Like the header it will be
         // 100px tall and the complete width.
-        // note how we use MountPoint and Align
+        // Note how we use MountPoint and Align
         // together to line up the bottom of the footer
         // with the bottom of the parent
         node.addChild()
@@ -138,7 +138,6 @@ Next, add a new `Footer` instance to the function `makeFooter`:
 Before we add `'click'` functionality to the buttons, let's first build our Swapper section. This next section will move a lot more quickly, so make sure you understand [layout](./Layout.html) and the steps above before continuing.
 
 ## See your progress
-
 
     $ famous deploy
 

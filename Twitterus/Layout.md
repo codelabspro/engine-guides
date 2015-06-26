@@ -15,7 +15,7 @@ Looking at the image above, you will see that we need three nodes (circles) to c
 
     function makeHeader (node) {
         node.addChild()
-            // some chainable logic
+            // Some chainable logic
             // positioning the intermediary
             // node
             .addChild();
@@ -36,23 +36,22 @@ We call these three functions in the constructor of Twitterus to create the nece
     // .. complete file not shown .. //
 
     function makeHeader (node) {
-        //child node extending from Twitterus
+        // Child node extending from Twitterus
         node.addChild()
-            //'grandchild' node
+            // 'Grandchild' node
             .addChild();
     }
 
     function makeFooter (node) {
-        //child nodes will control layout
+        // Child nodes will control layout
         node.addChild()
-            //'grandchild' nodes will carry 
-            //the visible elements e.g. Footer elements 
+            // 'Grandchild' nodes will carry 
+            // the visible elements e.g. Footer elements 
             .addChild();
     }
 
     function makeSwapper (node) {
         node.addChild()
-            //
             .addChild();
     }
 
@@ -78,24 +77,24 @@ See the [guides](https://famous.org/learn) for a deeper look at [Sizing](../sizi
 
 There are three concepts in placing nodes. The first is position. Position is simply a pixel value that will position a node relative to its parent.
 
-    node.setPosition(100, 100);
+     node.setPosition(100, 100);
 
 This node will be 100 pixels below and to the right of its parent.
 
 MountPoint is an offset which describes from where on the nodesa linear translation should be applied. So, for example:
 
-    firstNode.setPosition(100, 100).setMountPoint(1, 1);
-    secondNode.setPosition(100, 100).setMountPoint(0.5, 0.5);
+     firstNode.setPosition(100, 100).setMountPoint(1, 1);
+     secondNode.setPosition(100, 100).setMountPoint(0.5, 0.5);
 
 This means that the first node's bottom right corner will be positioned 100 pixels to the right and below the parent element, while the second node's center will be positioned in the same place. 
 
 Align is a proportional version of position:
 
-    node.setAlign(0.5, 0.5);
+     node.setAlign(0.5, 0.5);
 
 This node will be positioned such that its top right corner is exactly in the center of its parent. MountPoint and Align can be combined to neatly describe most layout needs.
 
-    node.setAlign(0.5, 0.5).setMountPoint(0.5, 0.5);
+     node.setAlign(0.5, 0.5).setMountPoint(0.5, 0.5);
 
 This node will have its center aligned to the center of its parent. Note that Align and MountPoint are automatically responsive to changes in the size of the parent and, in the case where the app is mounted to the body, to the window as well.
 
@@ -106,10 +105,10 @@ See the [guides](http://famous.org/learn) for a deeper look at [positioning](./p
 We will now complete the functions we showed earlier such that the layout is set for our application.
 
     function makeHeader(node) {
-        // the header will be positioned by default
+        // The header will be positioned by default
         // along the top of its parent.
         // It will be the complete width of its parent
-        // and 100 pixels tall.
+        // and 100 pixels tall
         node.addChild()
             .setSizeMode('default', 'absolute')
             .setAbsoluteSize(null, 100)
@@ -117,7 +116,7 @@ We will now complete the functions we showed earlier such that the layout is set
     }
 
     function makeSwapper(node) {
-        // the swapper will be 200 pixels smaller than
+        // The swapper will be 200 pixels smaller than
         // its parent in Y and otherwise the same size.
         // It will be position 100 pixels below its parent
         // such that it clears the header
@@ -128,11 +127,11 @@ We will now complete the functions we showed earlier such that the layout is set
     }
 
     function makeFooter(node) {
-        // the footer will be aligned
+        // The footer will be aligned
         // to the bottom of its parent.
         // Like the header it will be
         // 100px tall and the complete width.
-        // note how we use MountPoint and Align
+        // Note how we use MountPoint and Align
         // together to line up the bottom of the footer
         // with the bottom of the parent
         node.addChild()

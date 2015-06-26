@@ -13,7 +13,7 @@ Throughout the app, we'll use the JavaScript "class" pattern to organize our cod
 
 Copy and paste the code snippets below into the files `../index.js` and `Carousel.js`, which are included in the [carousel starter kit](https://github.com/famous/lesson-carousel-starter-kit) that you downloaded in the [getting started section](GettingStarted.html).
     
-      /**
+    /**
      * ../index.js
      */
 
@@ -37,11 +37,11 @@ Copy and paste the code snippets below into the files `../index.js` and `Carouse
 
     function Carousel(selector, data) {
         // Create a new Scene instance. Scenes are
-        // the starting point for all Famous apps.
+        // the starting point for all Famous apps
         this.context = FamousEngine.createScene(selector);
 
         // Add the first scene graph node to the
-        // context. This is the 'root' node.
+        // context. This is the 'root' node
         this.root = this.context.addChild();
 
         // Decorate the node with a DOMElement

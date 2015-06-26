@@ -22,15 +22,15 @@ If you focus on the scene graph representation, you'll notice that there are thr
 
 If you inspect the [src/twitterus folder](https://github.famo.us/morganplant/twitterus-starter-kit/tree/master/src/twitterus) of the starter project, you'll see that the files correspond to the classes that we're going to build. Each file or _module_ will be responsible for constructing different elements of the app. Read through the comments below to understand the role of each.
     
-    Footer.js     //This will create 4 Nav Buttons 
-    Header.js     //This will create a single title element
-    index.js       //This will create Twitterus
-    Section.js    //This will create many Tweets
-    Swapper.js    //This will create 4 Sections
-    Tweet.js      //This will create a single random message
-    Twitterus.js  //This will create Header, Swapper, and Footer sections
-    NavButton.js  //This will create a Nav Button
-    Data.json     //This will hold the example data
+    Footer.js     // This will create 4 Nav Buttons 
+    Header.js     // This will create a single title element
+    index.js      // This will create Twitterus
+    Section.js    // This will create many Tweets
+    Swapper.js    // This will create 4 Sections
+    Tweet.js      // This will create a single random message
+    Twitterus.js  // This will create Header, Swapper, and Footer sections
+    NavButton.js  // This will create a Nav Button
+    Data.json     // This will hold the example data
 
 Let's start by building out the Twitterus _class_ to set up the scaffolding for our Header, Footer and Swapper _classes_.
 

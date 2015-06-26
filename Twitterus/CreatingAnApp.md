@@ -47,9 +47,9 @@ Inspect the following lines in `index.js`.
 
     var Twitterus = require('./Twitterus');
     var FamousEngine = require('famous/core/FamousEngine');
-    // start the Engine
+    // Start the Engine
     FamousEngine.init();
-    // create the app and pass in the target element
+    // Create the app and pass in the target element
     var twitterus = FamousEngine.createScene().addChild(new Twitterus());
 
 And the code below in `Twitterus.js`.
