@@ -2,6 +2,8 @@
 
 **For the [Famous Framework](https://famous.org/framework) prose guides check out the repo here: [github.com/Famous/engine-guides](https://github.com/Famous/engine-guides)**
 
+[Click here for the Table of Contents](TOC.md)
+
 We've exposed this content so that you can help us provide more accurate and refined learning resources. This repo contains all of the raw Markdown content for the [famous.org/learn](https://famous.org/learn) section of the website. Note that Tutorials are broken into their own folders and the prose guidesare located in the root directory of this repo. 
 
 _While this repo does not expose any of the website's markup, feel free to file issues here about broken links or inconsistencies with the famous.org website in general._ 
