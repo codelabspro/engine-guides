@@ -160,7 +160,7 @@ sets its offset and content accordingly.
 
 The background node's DOMElement is being used in order to listen for
 `mousemove` events. It dispatches the locally received DOM UI event as a
-program event using the node's emit method. `this.emit(payload, event)` is a
+program event using the node's emit method. `this.emit(event, payload)` is a
 shorthand for
 `scene.getDispatch().dispatchUIEvent(Node.getLocation(), ev, payload)`.
 
