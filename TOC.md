@@ -1,32 +1,39 @@
 ## Table of Contents
 
 ### Overview
-['Hello Famous'](hello-famous.md)
-['Download & install'](download-and-install.md)
-['Browser & device support'](browser-and-device-support.md)
-[Contributing](contributing.md)
+
+ - ['Hello Famous'](hello-famous.md)
+ - ['Download & install'](download-and-install.md)
+ - ['Browser & device support'](browser-and-device-support.md)
+ - [Contributing](contributing.md)
+
 ### Essentials
-[Boilerplate](boilerplate.md)
-[Scene graph](scene-graph.md)
-[Components](components.md)
-[HTML Content](displaying-content.md)
-[HTML Styling](styling-content.md)
-[Positioning](positioning.md)
-[Sizing](sizing.md)
-[User input](user-input.md)
-[Gesture Handler](gesture-handler.md)
+
+ - [Boilerplate](boilerplate.md)
+ - [Scene graph](scene-graph.md)
+ - [Components](components.md)
+ - [HTML Content](displaying-content.md)
+ - [HTML Styling](styling-content.md)
+ - [Positioning](positioning.md)
+ - [Sizing](sizing.md)
+ - [User input](user-input.md)
+ - [Gesture Handler](gesture-handler.md)
+
 ### Intermediate
-[Transitionables](transitionables.md)
-[Easing curves](easing-curves.md)
-[Program events](program-events.md)
-[Physics](physics.md)
-['WebGL Content'](webgl-content.md)
-['WebGL Styling'](webgl-styling.md)
+
+ - [Transitionables](transitionables.md)
+ - [Easing curves](easing-curves.md)
+ - [Program events](program-events.md)
+ - [Physics](physics.md)
+ - ['WebGL Content'](webgl-content.md)
+ - ['WebGL Styling'](webgl-styling.md)
+
 ###Help
-[Pitfalls](pitfalls.md)
-[FAQ](faq.md)
-[Glossary](glossary.md)
-[Resources](resources.md)
+
+ - [Pitfalls](pitfalls.md)
+ - [FAQ](faq.md)
+ - [Glossary](glossary.md)
+ - [Resources](resources.md)
 
 <!-- _config.yml file 
 title: Guides | Famous Platform
