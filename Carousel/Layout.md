@@ -41,17 +41,16 @@ Because we need to create four elements --- two `Arrow` elements, a `Dots` eleme
         this.pageData = data.pageData;
 
         this.arrows = {
-            back: new Arrow(this.root.addChild(), { direction: -1 }),
-            next: new Arrow(this.root.addChild(), { direction: 1 })
+            back: this.root.addChild(new Arrow({ direction: -1 })),
+            next: this.root.addChild(new Arrow({ direction:  1 }))
         };
 
         this.pager = new Pager(this.root.addChild(), { pageData: this.pageData });
 
         this.dots = new Dots(this.root.addChild(), { numPages: this.pageData.length });
-        
-        // We will build this function in the next step
-        _positionComponents.call(this)
 
+        // We will build this function in the next step
+        _positionComponents.call(this);
     }
 
     module.exports = Carousel;
@@ -75,19 +74,19 @@ Copy and paste the following code snippet just below your `Carousel` constructor
 
     function _positionComponents() {
 
-        this.arrows.back.node.setSizeMode('absolute','absolute')
-        this.arrows.back.node.setAbsoluteSize(40, 40);
-        this.arrows.back.node.setPosition(40, 0, 0);
-        this.arrows.back.node.setAlign(0, .5, 0);
-        this.arrows.back.node.setMountPoint(0, .5, 0);
+        this.arrows.back.setSizeMode(1,1)
+        this.arrows.back.setAbsoluteSize(40, 40);
+        this.arrows.back.setPosition(40, 0, 0);
+        this.arrows.back.setAlign(0, .5, 0);
+        this.arrows.back.setMountPoint(0, .5, 0);
 
-        this.arrows.next.node.setSizeMode('absolute','absolute')
-        this.arrows.next.node.setAbsoluteSize(40, 40);
-        this.arrows.next.node.setPosition(-40, 0, 0);
-        this.arrows.next.node.setAlign(1, .5, 0);
-        this.arrows.next.node.setMountPoint(1, .5, 0);
+        this.arrows.next.setSizeMode(1,1)
+        this.arrows.next.setAbsoluteSize(40, 40);
+        this.arrows.next.setPosition(-40, 0, 0);
+        this.arrows.next.setAlign(1, .5, 0);
+        this.arrows.next.setMountPoint(1, .5, 0);
 
-        this.dots.node.setSizeMode('default','absolute')
+        this.dots.node.setSizeMode(1,1)
         this.dots.node.setAbsoluteSize(null, 20);
         this.dots.node.setPosition(0, -50, 0);
         this.dots.node.setAlign(.5, 1, 0);
