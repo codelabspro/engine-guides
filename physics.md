@@ -59,6 +59,12 @@ Extends `Particle`, and represents a sphere shape. Unlike `Particle`, has non-ze
 
 `Sphere.prototype` provides getters and setters for radius which will update size and the inertia tensor as side effects.
 
+Here is a very basic physics demo linking a Sphere with a Node. Note how the Sphere is responsible for determining the Node's postion. Click the logo to move the Sphere.
+
+<iframe src="https://staging.famous.org/examples/index.html?block=sphere&amp;detail=false&amp;header=false" style="width:100%;height:600px; margin: 15px 0px 25px 0px" scrolling="no" class="code-block" allowtransparency="true"></iframe>
+
+
+
 ### `Box`
 
     var Box = physics.Box;
@@ -129,6 +135,10 @@ A one dimensional constant gravitational force. Either takes a `.direction`  enu
 
 
 An inverse-square gravitational force.
+
+
+<iframe src="https://staging.famous.org/examples/index.html?block=gravity3d&amp;detail=false&amp;header=false" style="width:100%;height:600px; margin: 15px 0px 25px 0px" scrolling="no" class="code-block" allowtransparency="true"></iframe>
+
 
 ### `Spring`
 
