@@ -40,7 +40,6 @@ If you haven't yet, create the file `Dots.js`, and add the code below to it. Rea
 
         // Highlight the first dot in the collection
         this.dots[0].select();
-
     }
 
     // Evenly space out the dots
@@ -57,13 +56,13 @@ If you haven't yet, create the file `Dots.js`, and add the code below to it. Rea
 
     // Updating the selected dots on change of current page.
     Dots.prototype.pageChange = function(oldIndex, newIndex) {
-        this.dots[oldIndex].dot.deselect();
-        this.dots[newIndex].dot.select();
+        this.dots[oldIndex].deselect();
+        this.dots[newIndex].select();
     }
 
 
-
     module.exports = Dots;
+
 
 ## Dot class
 
@@ -91,7 +90,6 @@ We'll also introduce a class `Dot` that will encapsulate an individual dot among
     };
 
 
-
 <div class="sidenote--other">
 <p><strong>Modified files:</strong> <a href="https://github.com/famous/lesson-carousel-starter-kit/blob/step5-AddDotsClass/src/carousel/Dots.js">Dots.js</a> | <a href="https://github.com/famous/lesson-carousel-starter-kit/blob/step5-AddDotsClass/src/carousel/Carousel.js">Carousel.js</a></p>
 </div>
@@ -105,10 +103,9 @@ Add the code below to the `Dots` constructor.
 
     // Add a component to keep dot layout updated
     var resizeComponent = {
-        onSizeChange: function(x,y,z) {
-            size = [x,y,z]
+        onSizeChange: function(x, y, z) {
             // This will layout the dots whenever a resize occurs
-            this.layoutDots(size)
+            this.layoutDots([x, y, z])
             // Size === [parent size, 20, parent size]
         }.bind(this)
     };
@@ -124,11 +121,11 @@ Now, whenever the node is resized, the method above will fire with the new size 
 
 ## Seeing Dots
 
-To get your dots on the screen, open up `Carousel.js`, uncomment out all references to the `Dots` class in that file, and then from the terminal run: 
+To get your dots on the screen, open up `Carousel.js`, uncomment out all references to the `Dots` class in that file, and then from the terminal run:
 
     $ famous deploy
 
-Visit the sharable link to see your dots live on the web. 
+Visit the sharable link to see your dots live on the web.
 
 <div class="sidenote">
 <p><strong>Section recap:</strong> <a href="https://github.com/famous/lesson-carousel-starter-kit/tree/step5-AddDotsClass">Code for this step</a></p>

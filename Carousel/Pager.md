@@ -68,8 +68,8 @@ Notice how we use the external private function `_createPages` to construct and 
 Similar to our `Dots`, let's get the width using an `onSizeChange` method on a resize component for the `Pager`. This value will come into play later when we want to position our `imageNodes` off the screen.
 
     var resizeComponent = {
-        onSizeChange: function(size) {
-            this.defineWidth(size)
+        onSizeChange: function(x, y, z) {
+            this.defineWidth(x);
         }.bind(this)
     };
     this.node.addComponent(resizeComponent);
@@ -80,7 +80,7 @@ Add the lines above inside the `Pager` constructor. Refer back to the previous [
 
     $ famous deploy
 
-If you save the `Pager.js` file and run the command above, you'll find that all of your images will be stacked on top of each other when visiting the sharable link 
+If you save the `Pager.js` file and run the command above, you'll find that all of your images will be stacked on top of each other when visiting the sharable link
 
 
 <div class="sidenote--other">

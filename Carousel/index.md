@@ -4,7 +4,7 @@ title: Build a carousel with Famous
 ---
 
 <span class="intro-graf">
-In this lesson, you'll learn how to build a mobile-friendly carousel application using the Famous platform. Carousels can be a great way to feature collections of visual content, such as product listings.
+In this lesson, you'll learn how to build a responsive carousel application using the Famous platform. Carousels can be a great way to feature collections of visual content, such as product listings.
 </span>
 
 We'll walk you through creating a sensible structure for your app, styling your elements, capturing user input, and harnessing the Famous physics engine to create lively animations.
@@ -16,7 +16,7 @@ We'll walk you through creating a sensible structure for your app, styling your 
 
 <div class="sidenote">
 <p>At the end of each section, <strong>look for the section recap</strong>, where we'll provide links to the completed files, a live demo showing the current state of the code, and additional resources to browse.</p>
-</div> 
+</div>
 
 <span class="cta">
 [Let's start building &raquo;](./GettingStarted.html)
