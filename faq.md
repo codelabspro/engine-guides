@@ -36,7 +36,7 @@ Please contact us with any questions. TO NOTE: It will not be possible to do any
 
 We do not plan on integrating Angular 1.0 with the new Famous Engine. For the current Famous-Angular project, there are several community members who have expressed interest in maintaining it so we may hand it off to them. 
 
-## Where is the old version of  famo.us (http://famo.us/), Famo.us University, and the 0.3.5 documentation?
+## Where is the old version of  [famo.us](http://famo.us/), Famo.us University, and the 0.3.5 documentation?
  
- You can find all of this at http://deprecated.famous.org (http://deprecated.famous.org/)
+ You can find all of this at [http://deprecated.famous.org](http://deprecated.famous.org/)
 
