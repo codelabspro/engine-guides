@@ -112,17 +112,18 @@ For grabbing the `window` size, try to avoid pinging the DOM via `window.innerHe
     //add a size component
     var size = new Size(rootNode)
 
-    size.onSizeChange = function(size){
-       console.log("the parent's size is " + size)
+    size.onSizeChange = function(x,y,z){
+       console.log("the parent's size is " + x + " " + y + " " + z)
     }
-    
+
     //This simple 'custom component'
     //will do the same as above
     rootNode.addComponent({
-      onSizeChange: function(size){
-        console.log("the parent's size is " + size)
-      }
+      onSizeChange: function(x,y,z){
+           console.log("the parent's size is " + x + " " + y + " " + z)
+       }
     })
+
 
 Every resize event (including the initial load) will trigger the function assigned to `onSizeChange` passing in the parent size as an argument. Above, we add the `.onsizeChange()` method to a Size component, but it can be added to any component even a custom one (second half of code snippet).
 
