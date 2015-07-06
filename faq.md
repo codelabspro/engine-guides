@@ -30,4 +30,13 @@ We have not yet put together documentation, but you can find a global object bui
 
 —> [http://code.famo.us/famous/0.5/famous.min.js](http://code.famo.us/famous/0.5/famous.min.js)
 
-Please contact us with any questions. TO NOTE: It will not be possible to do anything with GL textures if you do not use a development server.
+Please contact us with any questions. TO NOTE: It will not be possible to do anything with GL textures if you do not use a development server. When developing on a local system you need to use a local server, rather than running files directly off the file system, or you will have CORS errors. In production, it will work absolutely fine as long as the texture and code are on the same domain. GL specifically does not support file system textures for securirty reasons.
+
+## What is the status of Famous-Angular now that the new Famous Engine has been released?
+
+We do not plan on integrating Angular 1.0 with the new Famous Engine. For the current Famous-Angular project, there are several community members who have expressed interest in maintaining it so we may hand it off to them. 
+
+## Where is the old version of  famo.us (http://famo.us/), Famo.us University, and the 0.3.5 documentation?
+ 
+ You can find all of this at http://deprecated.famous.org (http://deprecated.famous.org/)
+
