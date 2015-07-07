@@ -11,10 +11,10 @@ You've completed the lesson on creating a Famous container. We hope this lesson 
 
 In this lesson, you learned...
 
-  - How to Install the Famous Hub CLI
-  - How to Create a Famous Container
+  - How to install the Famous CLI
+  - How to create a Famous Container
   - How to deploy a project to the cloud
-  - How to Embed your project in an existing website
+  - How to embed your project in an existing website
 
 
 ## Feedback
