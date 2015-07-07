@@ -8,7 +8,6 @@ title: Upgrade your carousel with Famous
 
  [<img style="width:100%" src="./assets/images/bootstrap.png" />](http://learn-staging.famo.us/lessons/container/assets/example/Carousel%20Template%20for%20Bootstrap.html)
 
-
 ## Install the CLI
 
 If you haven't done so already, install the Famous CLI by typing the following command into the terminal:
@@ -58,8 +57,3 @@ Everytime you run `famous` deploy your container will update with your most rece
 
 
 <span class="cta">[Up Next: See it in action &raquo;](./seeitinaction.html)</span>
-
-
-
-
-
