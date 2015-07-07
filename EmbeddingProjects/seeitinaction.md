@@ -68,3 +68,5 @@ Live (fullscreen): [Upgraded carousel example](./assets/CarouselTemplate.html)
 Code (Github): [CarouselTemplate.html](https://github.com/Famous/engine-guides/blob/master/EmbeddingProjects/assets/CarouselTemplate.html) 
 
 In our upgraded carousel example above, we replaced all of the _featurette images_ with the same `Embedded Carousel` container. Note that multiple containers can share a single  `<script>` tag when embedded on the same page.
+
+<span class="cta">[Up Next: Finish &raquo;](./finish.html)</span>
