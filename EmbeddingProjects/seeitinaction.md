@@ -51,7 +51,7 @@ Using the embeddable HTML code you copied in the previous step above, paste the 
 
 ## Styling the container
 
-In order for your newly embedded container to show up on your page, you need to give it a height and width via CSS. For brevity sake, let's add some inline styles. Within the `<div>` tag you just pasted, give it a style attribute with a height of 500px, a width of 100% and a bottom margin of 15px so it looks like the snippet below. 
+In order for your newly embedded container to show up on your page, you need to give it a height and width via CSS. For brevity sake, let's add some inline styles. Within the `<div>` tag you just pasted, give it a style attribute with a height of 500px, a width of 100% and a bottom margin of 15px so it looks like the snippet below. (Make sure you replace 'your-container's-unique-ID' with your container's ID)
 
      <div class="famous-container" data-famous-container-identifier="your-container's-unique-ID" style="height:500px;width:100%;margin-bottom:15px">
 
