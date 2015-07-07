@@ -44,7 +44,7 @@ You can develop your seed project locally using `$ famous develop`. This will in
 
 ### Deploy
 
-    $famous deploy
+    $ famous deploy
 
 Once you are logged in, you can deploy your seed project to the cloud. `$ Famous deploy` builds your project and deploys it to a Hub container which is viewable by visiting the share link or embeddable using the returned HTML. 
 
@@ -53,7 +53,7 @@ Once you are logged in, you can deploy your seed project to the cloud. `$ Famous
     <script src="https://assets-beta.famo.us/embed/embed.js"></script>
     <div class="famous-container" data-famous-container-identifier="your-container's-unique-ID"></div>
 
-Everytime you run `famous` deploy your container will update with your most recent changes. 
+Everytime you run `$ famous deploy` your container will update with your most recent changes and return the same Share link and HTML snippet. 
 
 
 <span class="cta">[Up Next: See it in action &raquo;](./seeitinaction.html)</span>
