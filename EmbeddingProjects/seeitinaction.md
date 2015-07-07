@@ -4,12 +4,12 @@ title: See it in action
 ---
 
 <span class="intro-graf">
-  Now that we understand the Famous CLI basics, let's see how easy it is to add a project to an existing website. For demonstration purposes, we will replace a Bootstrap carsouel with the carousel we built in the [Carousel Tutorial](http://famous.org/learn/Carousel/).
+  Now that we understand the Famous CLI basics, let's see how easy it is to add a project to an existing website. For demonstration purposes, we will replace a Bootstrap carousel with the carousel we built in the [Carousel Tutorial](http://famous.org/learn/Carousel/).
 </span>
 
 ## Clone the project
 
-The following commands will install a fresh copy of the carousel to your desktop:
+The following commands will install a fresh copy of the Famous Carousel to your desktop:
 
     $ cd ~/desktop
     $ git clone -b final git@github.com:Famous/lesson-carousel-starter-kit.git
