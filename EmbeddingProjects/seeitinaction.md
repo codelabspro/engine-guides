@@ -20,8 +20,8 @@ The following commands will install a fresh copy of the carousel to your desktop
 
 Next let's install the dependencies and deploy the project to the cloud.
 
-   $ npm i
-   $ famous deploy
+    $ npm i
+    $ famous deploy
 
 This should return a Share link and Embed code snippet that resembles this:
     
