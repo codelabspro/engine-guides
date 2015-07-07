@@ -22,4 +22,4 @@ In this lesson, you learned...
 What did you think of this lesson? Did we explain the subjects clearly? Do you feel you're able to start embedding your own Famous projects now? We'd love to hear your feedback --- suggestions for improvement are welcomed --- at the Famous Community slack. 
 
 Signup here: [http://slack.famous.org/signup](http://slack.famous.org/signup)
-Visit the `#tutorial-requests` channel to leave your comments
+and visit the `#tutorial-requests` channel to leave your comments
