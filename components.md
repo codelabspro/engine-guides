@@ -133,4 +133,4 @@ Transitionables provide a method to get a value over time. Here is a simple comp
 
 This component will animate the position along the x axis of this node from 100px to 1000px over a second whenever the components `start` method is called. The way that this behavior is abstracted from the node and the application shows the power of components. By creating custom components a developer can create a behavior that can be mixed into any node.
 
-Next up, let's [put this into practice](displaying-content.html).
+Next up, let's [put this into practice](displaying-content.md).
