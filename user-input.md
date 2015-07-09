@@ -3,7 +3,13 @@ layout: default
 title: User input
 ---
 
-Handling user input is a central component of every non-trivial application.
+There have been some recent API changes here and we are working to rewrite the guides here ASAP. 
+
+We are working on versioned guides/docs to avoid this problem in the future. We apologize for the inconvenience. 
+
+
+
+<!-- Handling user input is a central component of every non-trivial application.
 Building applications in Famous is no exception.
 
 User Input in Famous is being handled through DOM events. The general pattern
@@ -102,3 +108,4 @@ Finally, we set up our scene graph:
     var scene = FamousEngine.createScene();
     scene.addChild(new NameInput());
     scene.addChild(new NameOutput());
+ -->

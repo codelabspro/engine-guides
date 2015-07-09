@@ -3,7 +3,7 @@ layout: default
 title: Upgrade your carousel with Famous
 ---
 
-<span class="intro-graf">With Famous containers and widgets, upgrading an existing website with stunning UI elements has never been easier. If you know how to embed a basic image or video, then you're ready to start embedding entire Famous projects into websites.
+<span class="intro-graf">With Famous containers, upgrading an existing website with stunning UI elements has never been easier. If you know how to embed a basic image or video, then you're ready to start embedding entire Famous projects into websites.
 </span>
 
 <img style="width:100%" src="./assets/images/bootstrap.png" />
