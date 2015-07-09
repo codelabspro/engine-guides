@@ -5,7 +5,7 @@ title: User input
 
 There have been some recent API changes and we are working to rewrite the guides here ASAP. 
 
-To avoid this problem in the future, We are also working on versioned guides/docs. We apologize for the inconvenience. 
+To avoid this problem in the future, we are also working on versioned guides/docs. We apologize for the inconvenience. 
 
 
 
