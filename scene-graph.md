@@ -46,4 +46,4 @@ In your Famous code, we create a scene graph by spawning nodes from your applica
 
 ## Rendering the scene graph
 
-We've learned that a scene graph gives us our application's structure --- but how do we display it? The scene graph by itself isn't enough. As we'll see in the next section, to actually display content, we'll need to _decorate_ our nodes with [components](components.html).
+We've learned that a scene graph gives us our application's structure --- but how do we display it? The scene graph by itself isn't enough. As we'll see in the next section, to actually display content, we'll need to _decorate_ our nodes with [components](components.md).
